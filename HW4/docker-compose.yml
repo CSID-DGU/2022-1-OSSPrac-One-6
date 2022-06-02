@@ -2,7 +2,7 @@ version: '3.3'
 
 services: 
   web: 
-    image: ex4:latest
+    image: hrmark1010/ex4:2.0
     build: .
     ports: 
     - "80:80"
