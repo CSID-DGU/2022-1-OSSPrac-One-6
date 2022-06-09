@@ -4,10 +4,10 @@ services:
   web: 
     image: ${DOCKER_USER_ID}/ex4
     build: .
-    
+
   production:
     image: ${DOCKER_USER_ID}/ex4:${BUILD_NUMBER}
     volumes:
     ports:
-    - "80:85"
+    - "80:80"
       
