@@ -9,7 +9,7 @@ def student():
 def result():
    if request.method == 'POST':
       result = dict()
-      result['Name'] = request.form.get('Name')
+      result['YourName'] = request.form.get('YourName')
       
       #학교
       result['Univ'] = request.form.get('Univ')
