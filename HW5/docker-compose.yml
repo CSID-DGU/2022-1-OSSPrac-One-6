@@ -7,7 +7,6 @@ services:
 
   production:
     image: ${DOCKER_USER_ID}/ex4:${BUILD_NUMBER}
-    volumes:
     ports:
     - "80:80"
       
