@@ -6,7 +6,7 @@ services:
     build: .
 
   production:
-    image: ${DOCKER_USER_ID}/ex4:${BUILD_NUMBER}
+    image: ${DOCKER_USER_ID}/ex4
     ports:
     - "80:80"
       
