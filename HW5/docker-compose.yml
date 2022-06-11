@@ -1,8 +1,9 @@
 version: '3.3'
 
 services: 
-  web:
+  production:
     build: .
+    image: ${DOCKER_USER_ID}/ex4:${BUILD_NUMBER}
     ports:
     - "80:80"
       
