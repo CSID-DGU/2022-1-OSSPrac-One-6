@@ -2,6 +2,7 @@ version: '3.3'
 
 services: 
   web: 
+    image: ${DOCKER_USER_ID}/ex4
     build: .
 
   production:
